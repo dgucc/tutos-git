@@ -38,14 +38,19 @@ git log
 git branch -a
 
 git checkout -b dev
-
+...
 pip install tabulate
-
+...
 git diff Personnage.py
-
+...
 git push -u origin dev
 
-git checkout -b feature/armes
 
+git checkout -b feature/armes
+...
+git push -u origin feature/armes
+
+git checkout dev
+git merge --no-ff feature/armes
 
 ```
