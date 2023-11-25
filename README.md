@@ -39,7 +39,7 @@ git branch -a
 
 git checkout -b dev
 
-
+git diff Personnage.py
 
 pip install tabulate
 ```
