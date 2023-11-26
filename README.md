@@ -10,6 +10,6 @@ git config user.name "dgucc"
 git add README.md
 git commit -m 'init'
 git branch -M main
-git remote add origin https://github.com/dgucc/tutos-python-bdc_rpg.git
+git remote add origin https://github.com/dgucc/tutos-git
 git push -u origin main
 ```
