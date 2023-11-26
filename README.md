@@ -25,6 +25,7 @@ Projet réalisé avec
 [github](https://github.com/bandeDeCodeurs/bdc_rpg)  
 
 ```bash
+# initialize
 git init
 git config user.email "djvu.guchz@gmail.com"
 git config user.name "dgucc"
@@ -33,23 +34,30 @@ git commit -m 'init'
 git branch -M main
 git remote add origin https://github.com/dgucc/tutos-git
 git push -u origin main
+´´´
 
 git log
+# display all branches
 git branch -a
 
+# create new branch "dev"
 git checkout -b dev
 ...
+# use "tabulate" to enhanced display
 pip install tabulate
 ...
 git diff Personnage.py
 ...
+
+# update remote repo (-u : upstream)
 git push -u origin dev
 
-
+# new branch from dev 
 git checkout -b feature/armes
 ...
 git push -u origin feature/armes
 
+# update dev with other branch "feature/armes"
 git checkout dev
 git merge --no-ff feature/armes
 

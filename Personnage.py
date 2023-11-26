@@ -27,7 +27,7 @@ class Personnage:
             ["État", etat]
         ]
 
-        print(tabulate(table, tablefmt="fancy_grid"))
+        print(tabulate(table, tablefmt="simple_grid"))
 
 
     def attaquer(self, cible):
